@@ -25,4 +25,3 @@ you want to do anyways.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I936jW7QbjM" frameborder="0" allowfullscreen></iframe>
   
-![gopher](img/starcrafts_2.png)

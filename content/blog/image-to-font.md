@@ -8,7 +8,7 @@ title = "Image To Font"
   @font-face {
     font-family: 'Logo';
     font-style: normal;
-    src: url('https://rawgit.com/berto/numinousbodywork/master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf');
+    src: url('https://cdn.jsdelivr.net/gh/berto/numinousbodywork@master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf');
   }
   .icon-logo {
     line-height: 1em;

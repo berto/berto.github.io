@@ -11,9 +11,9 @@ html {
 /* DARK THEME */
 
 .theme {
-  position: fixed;
-  top: 0;
-  right: 10px;
+  position: absolute;
+  top: 60px;
+  right: 50px;
   font-size: 150%;
 }
 
@@ -138,7 +138,7 @@ html {
   color: #666666 !important;
 }
 .accent {
-  color: #428bca !important;
+  color: #BD6CB5 !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -627,6 +627,7 @@ section.main .container .content .post-item {
   display: -ms-flexbox;
   display: -ms-flex;
   display: flex;
+  justify-content: space-between;
   -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
@@ -657,6 +658,7 @@ section.header {
   padding-top: 10px;
 }
 section.header-home {
+  position: relative;
   padding-top: 36px;
 }
 section.icons {
@@ -703,7 +705,7 @@ section.main .container .content .post-item {
   }
 }
 a {
-  color: #428bca;
+  color: #BD6CB5;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -791,7 +793,7 @@ section.main .content .markdown pre code {
   font-size: 0.9rem;
 }
 section.main .content .markdown a code {
-  color: #428bca !important;
+  color: #BD6CB5 !important;
 }
 section.main .content .markdown a code:hover {
   text-decoration: underline;

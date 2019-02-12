@@ -5,11 +5,11 @@
 <body lang="{{ .Site.Params.lang }}">
   <div class="overlay">
   </div>
-  <i class="icon theme ion-ios-moon"></i>
   {{ if .IsPage }}
   <section class="header"> 
   {{ else }}
   <section class="header header-home"> 
+    <i class="icon theme ion-ios-moon"></i>
   {{ end }}
       <div class="container">
           <!-- <a href="{{ .Site.BaseURL }}"><img class="logo" src="{{ .Site.Params.logofile | absURL }}" /></a> -->
@@ -147,7 +147,7 @@
                               <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
                           {{ end }}
                       {{ end }}
-                      <a href="./resume.png"><li>RESUME</li></a>
+                      <!-- <a href="./resume.png"><li>RESUME</li></a> -->
                   </ul>
               </nav>
           </div>

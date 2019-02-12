@@ -13,9 +13,11 @@
             {{ if ne (len (where .Data.Pages "Title" "!=" $globalTitle)) 0}}
             <div class="page-heading">{{ .Title }}</div>
             <ul>
-                {{ range .Data.Pages.ByPublishDate }}
-                    {{ if ne .Title $globalTitle }}
-                        {{ partial "li.html" . }}
+                {{ range .Data.Pages.GroupByDate "Jan, 2006" "desc"}}
+                    {{ range .Pages.ByPublishDate }}
+                        {{ if ne .Title $globalTitle }}
+                            {{ partial "li.html" . }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             </ul>

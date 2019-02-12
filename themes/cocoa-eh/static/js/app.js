@@ -1,27 +1,27 @@
 const burst = new mojs.Burst({
-  left: 0, 
+  left: 0,
   top: 0,
-  radius:   { 0: 100 },
-  count:    7,
-  angle:    { 0: 90 },
-  opacity:  { 1: 0 },
+  radius: { 0: 100 },
+  count: 7,
+  angle: { 0: 90 },
+  opacity: { 1: 0 },
   children: {
-    fill:       { '#BE6CB6' : 'cyan' },
-    duration:   2000
+    fill: { '#BE6CB6': 'cyan' },
+    duration: 2000
   }
 })
 
-const displayBackground = location.pathname === '/' || location.pathname === '/about/'
+const displayBackground = location.pathname === '/about/'
 
 if (displayBackground) {
   const overlay = document.querySelector('.overlay')
-  overlay.style.opacity = .1
+  overlay.style.opacity = 0.1
 }
 
 const img = document.querySelector('img')
 
 if (img) {
-  img.addEventListener( 'click' , (e) => {
+  img.addEventListener('click', e => {
     let isA = e.target.localName === 'a'
     let hasParent = e.target.parentNode.localName === 'a'
     let hasGrandparent = e.target.parentNode.parentNode.localName === 'a'
@@ -29,16 +29,16 @@ if (img) {
       burst
         .tune({ x: e.pageX, y: e.pageY })
         .generate()
-        .replay();
+        .replay()
     }
   })
 }
 
-console.set({size: '2em'});
-console.party('Welcome to my console!!');
-console.set({size: '1em', style: 'pink'});
-console.print('Nothing but beautiful text');
-console.log('https://github.com/berto/fun-logger');
+console.set({ size: '2em' })
+console.party('Welcome to my console!!')
+console.set({ size: '1em', style: 'pink' })
+console.print('Nothing but beautiful text')
+console.log('https://github.com/berto/fun-logger')
 
 // Dark Theme
 
@@ -104,7 +104,7 @@ function setTheme(css) {
   const title = document.querySelector('.name h1')
   setElementsColor('section.main .content', css.color)
   setElementsColor('section.main .content .markdown p', css.color)
-  for(let i = 1; i <= 6; i++) {
+  for (let i = 1; i <= 6; i++) {
     setElementsColor(`section.main .content .markdown h${i}`, css.color)
   }
   setElementsColor('section.main .content .page-heading', css.color)
@@ -114,7 +114,7 @@ function setTheme(css) {
     css.opacity = 0
   }
   body.style.backgroundColor = css.background
-  title.style.color = css.color 
+  title.style.color = css.color
   backgroundImage.style.opacity = css.opacity
   backgroundImage.style.filter = css.filter
   button.style.color = css.color
