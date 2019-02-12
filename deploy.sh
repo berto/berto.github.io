@@ -24,4 +24,4 @@ git_commit
 git push origin hugo
 
 # Push source and build repos.
-git subtree push -f --prefix public origin master
+git push origin `git subtree split --prefix public hugo`:master --force
