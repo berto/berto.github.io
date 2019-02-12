@@ -21,17 +21,7 @@ hugo -t cocoa-eh
 git_commit
 
 # Push source and build repos.
-git push origin master:hugo
-
-# Go To Public folder
-cd public
-
-# Commit and push changes
-git_commit
+git push origin hugo
 
 # Push source and build repos.
-git push origin master
-
-# Come Back
-cd ..
-
+git subtree push --prefix public origin master
