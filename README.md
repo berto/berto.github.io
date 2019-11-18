@@ -6,6 +6,12 @@ The static site source code can be found in the `master` branch.
 
 ## Usage
 
+Run
+
+```
+hugo serve
+```
+
 Create a new blog
 
 ```
