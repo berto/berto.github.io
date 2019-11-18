@@ -5,12 +5,8 @@
 <body lang="{{ .Site.Params.lang }}">
   <div class="overlay">
   </div>
-  {{ if .IsPage }}
   <section class="header"> 
-  {{ else }}
-  <section class="header header-home"> 
     <i class="icon theme ion-ios-moon"></i>
-  {{ end }}
       <div class="container">
           <!-- <a href="{{ .Site.BaseURL }}"><img class="logo" src="{{ .Site.Params.logofile | absURL }}" /></a> -->
           <a href="{{ .Site.BaseURL }}">
@@ -132,8 +128,11 @@
               </a>
               <nav>
                   <ul>
-                      {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
-                          <a href="{{ .Site.BaseURL }}/blog/"><li>Blog</li></a>
+                      <a href="/"><li>HOME</li></a>
+                      {{ range where .Site.RegularPages "Section" ""}}
+                          {{ if ne .Title "Home"}}
+                              <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
+                          {{ end }}
                       {{ end }}
                       {{ range .Site.Sections }}
                           {{ range first 1 (where .Pages "Section" "ne" "")}}
@@ -142,10 +141,8 @@
                               {{ end }}
                           {{ end }}
                       {{ end }}
-                      {{ range where .Site.RegularPages "Section" ""}}
-                          {{ if ne .Title "Home"}}
-                              <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
-                          {{ end }}
+                      {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
+                        <a href="{{ .Site.BaseURL }}/blog/"><li>Blog</li></a>
                       {{ end }}
                       <!-- <a href="./resume.png"><li>RESUME</li></a> -->
                   </ul>

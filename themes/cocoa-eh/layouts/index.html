@@ -7,20 +7,6 @@
                 {{ .Content }}
                 </div>
             {{ end }}
-
-            <ul>
-            {{ range first 5 (.Data.Pages.GroupByDate "Jan, 2006" "desc")}}
-                {{ $nbPages := len (where .Pages "Section" "blog")}}
-                {{ range where .Pages.ByPublishDate "Section" "blog"}}
-                    {{ partial "li.html" . }}
-                {{ end }}
-            {{ end }}
-            </ul>
-
-            {{ $nbTotalGroup := len (.Data.Pages.GroupByDate "Jan, 2006" "desc")}}
-            {{ if gt $nbTotalGroup 5}}
-                <a href="./blog/" class="see-more">See more ...</a>
-            {{ end }}
         </div>
     </div>
 </section>

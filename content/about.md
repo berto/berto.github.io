@@ -4,8 +4,9 @@ title = "about"
 
 +++
 
-<img class="round" src="/img/me.jpg" alt="me" width="200">
+<p class="center">
+  <img class="round" src="/img/me.jpg" alt="me" width="400">
+</p>
+My name is Roberto Ortega and I'm a software engineer in the lovely city of Denver. I have a strong passion for sharing knowledge and being part of the community.
 
-Roberto Ortega is a software engineer in the lovely city of Denver. He has a strong passion for sharing knowledge and being part of the community.
-
-In his spare time, he enjoys coding, climbing, biking, walking his dog, playing chess and computer games.
+In my spare time, I enjoys coding, climbing, biking, walking my dog, playing chess and computer games.
