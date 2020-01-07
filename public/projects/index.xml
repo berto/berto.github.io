@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Berto</title>
@@ -6,10 +6,21 @@
     <description>Recent content in Projects on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 11 Feb 2019 14:55:03 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2020 14:55:03 -0700</lastBuildDate>
     
 	<atom:link href="https://berto.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wasm Snake Game</title>
+      <link>https://berto.github.io/projects/wasm-snake-game/</link>
+      <pubDate>Sat, 04 Jan 2020 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/wasm-snake-game/</guid>
+      <description>Snek is a fun project built with rust&amp;rsquo;s wasm bindgen.
+Code Source
+Back to Projects</description>
+    </item>
     
     <item>
       <title>Fog of War</title>
