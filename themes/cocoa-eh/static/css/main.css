@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:400, 700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu + Mono:400, 400italic, 700, 700italic);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
@@ -25,10 +25,14 @@ html {
   text-align: center;
 }
 
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-heading.home {
-  color: black; 
-  margin-top: 30px; 
-  margin-bottom: 30px !important;
+  color: black;
+  margin-top: 30px;
 }
 
 .content-card {
@@ -39,7 +43,7 @@ html {
 
 .content-card > * {
   width: 100%;
-  min-height: 150px;
+  min-height: 100px;
 }
 
 .content-description {
@@ -54,7 +58,7 @@ html {
   align-items: flex-start;
 }
 
-.content-description.right > *{
+.content-description.right > * {
   text-align: left;
 }
 
@@ -67,38 +71,38 @@ html {
 
 /* BACKGROUND */
 
-@-webkit-keyframes scroll{
-  100%{
-    background-position:0px -3000px;
+@-webkit-keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
   }
 }
 
-@-moz-keyframes scroll{
-  100%{
-    background-position:0px -3000px;
+@-moz-keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
   }
 }
 
-@-o-keyframes scroll{
-  100%{
-    background-position:0px -3000px;
+@-o-keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
   }
 }
 
-@-ms-keyframes scroll{
-  100%{
-    background-position:0px -3000px;
+@-ms-keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
   }
 }
 
-@keyframes scroll{
-  100%{
-    background-position:0px -3000px;
+@keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
   }
 }
 
 .overlay {
-  background-image: url('../img/background.svg'); 
+  background-image: url('../img/background.svg');
   background-repeat: repeat;
   -webkit-animation: 100s scroll infinite linear;
   -moz-animation: 100s scroll infinite linear;
@@ -106,7 +110,7 @@ html {
   -ms-animation: 100s scroll infinite linear;
   animation: 100s scroll infinite linear;
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -139,17 +143,21 @@ html {
 }
 
 @keyframes pant {
-  10%, 25% {
-    transform: translate(.1em, .1em)
+  10%,
+  25% {
+    transform: translate(0.1em, 0.1em);
   }
-  25%, 50% {
-    transform: translate(-.1em, -.1em)
+  25%,
+  50% {
+    transform: translate(-0.1em, -0.1em);
   }
-  50%, 75% {
-    transform: translate(.1em, .1em)
+  50%,
+  75% {
+    transform: translate(0.1em, 0.1em);
   }
-  75%, 80% {
-    transform: translate(-.05em, -.05em)
+  75%,
+  80% {
+    transform: translate(-0.05em, -0.05em);
   }
 }
 
@@ -174,15 +182,15 @@ html {
 @font-face {
   font-family: 'Nexa Bold';
   src: url('../fonts/Nexa Bold.otf');
-}0
-.dark {
+}
+0 .dark {
   color: #333333 !important;
 }
 .light {
   color: #666666 !important;
 }
 .accent {
-  color: #BD6CB5 !important;
+  color: #bd6cb5 !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -237,7 +245,7 @@ body {
   color: #111111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
-  position: relative;                 
+  position: relative;
 }
 
 @media (min-width: 600px) {
@@ -354,7 +362,7 @@ section.header .content {
   align-items: center;
 }
 section.header .container > a:first-child {
-  -webkit-flex:1 0 auto;
+  -webkit-flex: 1 0 auto;
 }
 section.header .container .logo {
   max-width: 100px;
@@ -428,7 +436,7 @@ section.header nav ul li:hover {
   .content-description.right {
     align-items: flex-end;
   }
-  .content-description.right > *{
+  .content-description.right > * {
     text-align: right;
   }
   section.header {
@@ -621,7 +629,7 @@ section.main .content .front-matter .middot {
   vertical-align: middle;
 }
 section.main .content .front-matter .middot:before {
-  content: "•";
+  content: '•';
 }
 @media (min-width: 600px) {
   section.main .content .front-matter .date,
@@ -736,11 +744,11 @@ section.main {
   padding-bottom: 32px;
 }
 section.main .container .content .post-item .meta {
-    display: block;
+  display: block;
 }
 section.main .container .content .post-item {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 @media (min-width: 600px) {
   .container {
@@ -748,7 +756,7 @@ section.main .container .content .post-item {
   }
   section.header {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
   section.icons {
     padding-top: 60px;
@@ -772,7 +780,7 @@ section.main .container .content .post-item {
   }
 }
 a {
-  color: #BD6CB5;
+  color: #bd6cb5;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -839,7 +847,7 @@ section.main .content .markdown pre {
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
-  padding: .15em .5em;
+  padding: 0.15em 0.5em;
   border-radius: 2px;
 }
 section.main .content .markdown pre {
@@ -848,7 +856,7 @@ section.main .content .markdown pre {
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
-  line-height: 1.5em;
+  line-height: 1.2em;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
@@ -860,14 +868,14 @@ section.main .content .markdown pre code {
   font-size: 0.9rem;
 }
 section.main .content .markdown a code {
-  color: #BD6CB5 !important;
+  color: #bd6cb5 !important;
 }
 section.main .content .markdown a code:hover {
   text-decoration: underline;
 }
 section.main .content .markdown p {
   font-size: 1em;
-  line-height: 1.75em;
+  line-height: 1.2em;
   color: #313537;
   letter-spacing: 0.01rem;
   font-family: 'Source Sans Pro', sans-serif;
@@ -885,7 +893,7 @@ section.main .content .markdown dt {
   font-weight: bold;
 }
 section.main .content .markdown dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 section.main .content .markdown ul {
   margin-bottom: 1.25rem;
@@ -918,10 +926,10 @@ section.main .content .markdown abbr[title] {
   border-bottom: 1px dotted #808080;
 }
 section.main .content .markdown blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: 0.25rem solid #e5e5e5;
 }
 section.main .content .markdown blockquote p:last-child {
   margin-bottom: 0;
@@ -929,9 +937,24 @@ section.main .content .markdown blockquote p:last-child {
 .round {
   border-radius: 5px;
 }
+.circle-round {
+  border-radius: 50%;
+}
+.profile-face-container {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-right: 20px;
+}
+.profile-face {
+  position: absolute;
+}
+.profile-face-container:hover .front {
+  display:none;
+}
 
 body {
-  border-top: 2px #BD6CB5 solid;
+  border-top: 2px #bd6cb5 solid;
 }
 
 .extend {
@@ -948,28 +971,28 @@ body {
     padding-left: 1.25rem;
   }
   section.main .content .markdown p {
-  font-size: 1.2em;
-}
-section.main .content .markdown img {
-  margin: 1rem 0;
-  max-width: 100%;
-}
-section.main .content .markdown table {
-  margin-bottom: 1rem;
-  width: 100%;
-  border: 1px solid #e5e5e5;
-  border-collapse: collapse;
-}
-section.main .content .markdown td,
-section.main .content .markdown th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
-}
-section.main .content .markdown tbody tr:nth-child(odd) td,
-section.main .content .markdown tbody tr:nth-child(odd) th {
-  background-color: #f7f7f7;
-}
-.name:hover .extend {
-  max-width: 200px;
-}
+    font-size: 1.2em;
+  }
+  section.main .content .markdown img {
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+  section.main .content .markdown table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+  }
+  section.main .content .markdown td,
+  section.main .content .markdown th {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #e5e5e5;
+  }
+  section.main .content .markdown tbody tr:nth-child(odd) td,
+  section.main .content .markdown tbody tr:nth-child(odd) th {
+    background-color: #f7f7f7;
+  }
+  .name:hover .extend {
+    max-width: 200px;
+  }
 }

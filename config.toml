@@ -25,3 +25,9 @@ lang = "en"
 github = "berto"
 email = "berto.ort@gmail.com"
 linkedin = "bertoort"
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = true
+    xhtml = false
