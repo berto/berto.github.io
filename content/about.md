@@ -10,5 +10,5 @@ In my spare time, I enjoy coding, climbing, biking, walking my dog, playing ches
 
 <p class="center group">
   <img class="round" src="/img/me.jpg" alt="me" width="300">
-  <img class="round" src="/img/escalar.jpg" alt="escalar" width="300">
+  <img class="round" src="/img/climb.jpg" alt="climb" width="300">
 </p>
