@@ -3,7 +3,7 @@ date = "2017-01-31T15:58:19-07:00"
 title = "Home"
 +++
 
-I'm a developer, teacher, and learner. Here you will find more information about me and my work.
+I'm a developer, mentor, and forever learner. Here you will find more information about me and my work.
 
 <div class="page-heading home">Work</div>
 
