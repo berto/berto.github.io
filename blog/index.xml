@@ -96,7 +96,7 @@ After reading this blog, you should have a clear picture on how to build a basic
       
       <guid>https://berto.github.io/blog/creating-a-dotfiles-directory/</guid>
       <description>Not too complicated but highly useful. The purpose of doing this is to save your system configurations and host them somewhere. I have my dotfiles on github to share with the public, store them in a safe place, and to easily transfer them to other environments like my ubuntu server.
-Start by creating a directory anywhere you want, inside your projects or $HOME directory. Then, copy all your dotfiles (.</description>
+Start by creating a directory anywhere you want, inside your projects or $HOME directory. Then, copy all your dotfiles (.bashrc, .</description>
     </item>
     
     <item>
