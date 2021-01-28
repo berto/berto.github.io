@@ -11,6 +11,6 @@ and post them on Twitter. The program can also generate hexagon-tiled images.
 ![vango](https://cdn.jsdelivr.net/gh/berto/vango@master/examples/hexagon.png)
 ![vango](https://cdn.jsdelivr.net/gh/berto/vango@master/examples/alarak-hexagons.jpg)
 
-[Code Source](https://github.com/berto/vango)
+[Code Source](https://github.com/bertoort/vango)
 
 [Back to Projects](/projects)

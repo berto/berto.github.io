@@ -41,7 +41,7 @@ When picking a theme, make sure it has the layout and features you will need. Th
 
 It is not a deal breaker if it doesn't have everything you need. You can customize a theme fairly easy, but it is less work overall.
 
-After picking a theme, make sure to find the `config.toml` file, we will need this to configure our app. 
+After picking a theme, make sure to find the `config.toml` file, we will need this to configure our app.
 
 ## GENERATING AN APP
 
@@ -53,7 +53,7 @@ hugo new site .
 
 This will immediately create an app in the current directory, hence the `.`.
 
-Now, let's add our theme. Go to the source code of the theme. [Here](https://github.com/spf13/hugoThemes) is the repo containing all the themes. For this site, I used the [cocoa-eh](https://github.com/fuegowolf/cocoa-eh-hugo-theme) theme. 
+Now, let's add our theme. Go to the source code of the theme. [Here](https://github.com/spf13/hugoThemes) is the repo containing all the themes. For this site, I used the [cocoa-eh](https://github.com/fuegowolf/cocoa-eh-hugo-theme) theme.
 
 To add it, simply clone it with `git` into a themes directory. For example:
 
@@ -69,7 +69,7 @@ When that's done, serve the application with the new theme
 
 ```
 hugo server -D
-``` 
+```
 
 The new site should be up and running on `localhost:1313`
 
@@ -83,7 +83,7 @@ Link to them in the `layouts` directory. Inside the `partials`, you'll find the 
 
 The one unfamiliar syntax you might find is the "Actions" surrounded by `{{` and `}}`. This is [Go's Template](https://golang.org/pkg/text/template/) syntax, very similar to [Handlebars](http://handlebarsjs.com/). The "Actions" are basically arguments or pipelines to add value and logic to the template.
 
-In our case, we can use it to link to our files with the correct path. There are many variables available, the one we will use is `{{ .Site.BaseURL }}`, which as you might have guessed, represents your app URL defined in the `config.toml`. 
+In our case, we can use it to link to our files with the correct path. There are many variables available, the one we will use is `{{ .Site.BaseURL }}`, which as you might have guessed, represents your app URL defined in the `config.toml`.
 
 E.g.
 
@@ -91,7 +91,7 @@ E.g.
 <script src="{{ .Site.BaseURL }}/js/app.js" type="text/javascript"></script>
 ```
 
-## ADDING CONTENT 
+## ADDING CONTENT
 
 Depending on the type of site, we will want to add some personal content. Inside the project, there is a `contents` directory. This is where the markdown files live and are parsed into html from.
 
@@ -109,7 +109,7 @@ or
 hugo new about.md
 ```
 
-## DEPLOYMENT 
+## DEPLOYMENT
 
 So far we've been running a `hugo` server to edit our new application. To generate the static files with our theme, run:
 
@@ -121,7 +121,7 @@ That's it! The `public` directory will contain our new and wonderful application
 
 ## NEXT STEPS
 
-Checkout [this site's repo](https://github.com/berto/berto.github.io) for more code examples.
+Checkout [this site's repo](https://github.com/bertoort/bertoort.github.io) for more code examples.
 
 If you find yourself customizing a lot of your theme, I highly encourage you to [create your own hugo theme](https://gohugo.io/themes/creation/).
 

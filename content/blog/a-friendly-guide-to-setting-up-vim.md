@@ -76,7 +76,7 @@ These will add numbers, highlights, and other basics. Let’s add Vundle (our pl
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-call vundle#end()            
+call vundle#end()
 ```
 
 Now let’s add some useful plugins. To find more information about them, add github.com/ before it and look at the repo online.
@@ -188,7 +188,7 @@ Next time you open vim, it should look like other text editors you know and love
 
 There are so, so many more plugins and shortcuts that you can add to make vim better suited for you. Specially for the languages you use. If you ever find yourself typing the same command over and over and it seems a bit of a hassle, you can shorten it and make it easier.
 
-Here are a few that I’ve added over time to [my vimrc file](https://github.com/berto/dotfiles/blob/master/.vimrc)
+Here are a few that I’ve added over time to [my vimrc file](https://github.com/bertoort/dotfiles/blob/master/.vimrc)
 
 ```
 "No arrow keys
@@ -211,7 +211,7 @@ vnoremap <leader>y "+y
 nnoremap <leader>p :<C-u>exec 'normal ' . v:count1 . '"+p'<CR>
 vnoremap <leader>p "+p
 nnoremap <leader>d :<C-u>exec 'normal ' . v:count1 . '"+dd'<CR>
-vnoremap <leader>d "+d 
+vnoremap <leader>d "+d
 
 "Moving lines
 nnoremap <C-j> :m .+1<CR>

@@ -9,6 +9,6 @@ title = "Go Terminal Flashcard App"
 
 Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.
 
-[Code Source](https://github.com/berto/flashcards)
+[Code Source](https://github.com/bertoort/flashcards)
 
 [Back to Projects](/projects)

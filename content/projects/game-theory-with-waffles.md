@@ -14,7 +14,6 @@ Built with websockets and Go.
 
 [Heroku Url](https://waffles-game-theory.herokuapp.com/). Takes a second.
 
-[Code Source](https://github.com/berto/waffles-game-theory)
+[Code Source](https://github.com/bertoort/waffles-game-theory)
 
 [Back to Projects](/projects)
-

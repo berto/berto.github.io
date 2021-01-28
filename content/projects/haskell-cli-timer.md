@@ -8,6 +8,6 @@ title = "Haskell CLI Timer"
 
 Simple CLI timer. Test-driven and written in Haskell.
 
-[Code Source](https://github.com/berto/terminal-countdown-timer)
+[Code Source](https://github.com/bertoort/terminal-countdown-timer)
 
 [Back to Projects](/projects)

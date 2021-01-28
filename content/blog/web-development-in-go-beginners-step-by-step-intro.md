@@ -105,7 +105,7 @@ Now let’s install [Gin](https://gin-gonic.github.io/gin/) to run our server. I
 Your Go workspace should look something like:
 
 ```
-go/  
+go/
   |- pkg/
   |- bin/
   |- src/
@@ -241,6 +241,6 @@ All done! We have successfully built a web server and deployed it to the interne
 
 From here, build up your server. Add some routes, add some views, build your own blog. [Go by Example](https://gobyexample.com/) is one of my favorite tools to learn the language.
 
-And speaking of examples, I highly encourage looking at some of my [previous work](https://github.com/search?q=user%3Aberto+language%3Ago) for examples on [multiple routes](https://github.com/berto/twitch-streams/blob/master/main.go), [serving JSON](https://github.com/berto/sugoku/blob/master/main.go#L70), and hooking up a [database](https://github.com/berto/beer-tinder/blob/master/main.go#L37).
+And speaking of examples, I highly encourage looking at some of my [previous work](https://github.com/search?q=user%3Aberto+language%3Ago) for examples on [multiple routes](https://github.com/bertoort/twitch-streams/blob/master/main.go), [serving JSON](https://github.com/bertoort/sugoku/blob/master/main.go#L70), and hooking up a [database](https://github.com/bertoort/beer-tinder/blob/master/main.go#L37).
 
 ![gopher](/img/gopher2.png)

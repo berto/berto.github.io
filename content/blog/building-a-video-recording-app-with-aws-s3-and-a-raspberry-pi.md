@@ -115,9 +115,8 @@ If this works correctly, you should be able to see the images in your [AWS Conso
 
 ## STREAMING APP
 
-The app was my touch to easily display a timelapse of the images taken. You can find the [code here](https://github.com/berto/time-lapse). It was written in Go using the [AWS Go SDK](https://github.com/aws/aws-sdk-go). The app gets the images from Amazon, sends them to the client, and JavaScript displays them every second.
+The app was my touch to easily display a timelapse of the images taken. You can find the [code here](https://github.com/bertoort/time-lapse). It was written in Go using the [AWS Go SDK](https://github.com/aws/aws-sdk-go). The app gets the images from Amazon, sends them to the client, and JavaScript displays them every second.
 
 This is where a lot of liberty can come in for the execution. For example, you can have an app with a button that will run the script and display the current image. That’s basically an instant home monitoring app. Have fun :)
 
 ![gopher](/img/gopher4.png)
-

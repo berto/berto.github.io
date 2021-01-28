@@ -9,6 +9,6 @@ Snek is a fun project built with rust's [wasm bindgen](https://rustwasm.github.i
 
 ![snek gif](https://cdn.jsdelivr.net/gh/berto/snek@master/snek.gif)
 
-[Code Source](https://github.com/berto/snek)
+[Code Source](https://github.com/bertoort/snek)
 
 [Back to Projects](/projects)

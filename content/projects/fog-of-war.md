@@ -9,6 +9,6 @@ date = "2019-02-11T14:55:03-07:00"
 
 Game project to explore [Rust](https://www.rust-lang.org/) using game framework [ggez](http://ggez.rs/).
 
-[Code Source](https://github.com/berto/fog-of-war)
+[Code Source](https://github.com/bertoort/fog-of-war)
 
 [Back to Projects](/projects)

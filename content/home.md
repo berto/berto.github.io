@@ -6,14 +6,23 @@ title = "Home"
 I'm a developer, mentor, and forever learner. Here you will find more information about me and my work.
 
 <div class="page-heading home">Work</div>
-
+<div class="content-card">
+  <div class="content-description">
+    <strong>Senior Software Engineer</strong>
+    <div><a href="https://primer.ai/">Primer AI</a></div>
+    <div>Feb 2021 - Present</div>
+  </div>
+  <div class="content-image work">
+    <img class="round" src="/img/primer-logo.png" alt="me" >
+  </div>
+</div>
 <div class="content-card">
   <div class="content-description">
     <strong>Principal Software Engineer</strong>
     <div><a href="https://www.seaspancorp.com/">Seaspan Corporation</a></div>
-    <div>Oct 2018 - Present</div>
+    <div>Oct 2018 - Feb 2021</div>
   </div>
-  <div class="content-image">
+  <div class="content-image work">
     <img class="round" src="/img/seaspan-logo.png" alt="me" >
   </div>
 </div>
@@ -24,7 +33,7 @@ I'm a developer, mentor, and forever learner. Here you will find more informatio
     <div><a href="https://www.galvanize.com/">Galvanize</a></div>
     <div>Oct 2015 - Oct 2018</div>
   </div>
-  <div class="content-image">
+  <div class="content-image work">
     <img class="round" src="/img/galvanize-logo.png" alt="me" >
   </div>
 </div>

@@ -1,4 +1,4 @@
-baseurl = "https://berto.github.io"
+baseurl = "https://bertoort.github.io"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
@@ -22,7 +22,7 @@ logofile = "img/zergling.svg"
 faviconfile = "img/zergling.png"
 highlightjs = true
 lang = "en"
-github = "berto"
+github = "bertoort"
 email = "berto.ort@gmail.com"
 linkedin = "bertoort"
 

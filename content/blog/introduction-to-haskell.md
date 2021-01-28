@@ -10,7 +10,7 @@ title = "Introduction to Haskell"
 
 I came to discover [Haskell](https://www.haskell.org/) is a wonderful programming language. The fact that it is statically typed and purely functional grabbed my attention (it is also described as a declarative language, regardless of how impossible it is to read).
 
-This blog is an open record of how I came to create a simple [CLI timer](https://github.com/berto/terminal-countdown-timer) with Haskell and what I learned from it.
+This blog is an open record of how I came to create a simple [CLI timer](https://github.com/bertoort/terminal-countdown-timer) with Haskell and what I learned from it.
 
 ![timer](/img/projects/timer.gif)
 
@@ -18,7 +18,7 @@ This blog is an open record of how I came to create a simple [CLI timer](https:/
 
 Ridiculously painless. First, read as much as you can of [Learn You A Haskell](http://learnyouahaskell.com/). It is the best programming book I've ever read.
 
-When you're ready to code, go [here](https://www.haskell.org/platform/) and download the latest version of the Haskell Platform. 
+When you're ready to code, go [here](https://www.haskell.org/platform/) and download the latest version of the Haskell Platform.
 
 On top of installing Haskell, it also gives you [GHC](https://www.haskell.org/ghc/) to compile the code. It comes with an interactive environment for the terminal. Type `ghci` to play around.
 
@@ -39,7 +39,7 @@ stack setup
 stack build
 stack exec my-project-exe
 ```
- 
+
 ## DEVELOPMENT
 
 Type `stack new my-project` to get started. When you generate a new project, Stack gives you the following:
@@ -59,11 +59,11 @@ Type `stack new my-project` to get started. When you generate a new project, Sta
 ```
 
 Like `Java` and other compiled languages, the `main` package contains the main function of the application. You will notice a `Lib` package being imported in `Main.hs`. This is an example of importing custom packages from the `src` directory.
-You can create a package by creating a file in the `src` directory and adding it to the `.cabal` file's `exposed-modules`. 
+You can create a package by creating a file in the `src` directory and adding it to the `.cabal` file's `exposed-modules`.
 
 I found myself editing the `*.cabal` file quite often. This is where your project information lives and you specify the package imports.
 
-For importing third party packages, install them using `cabal` and then add them to the ` build-depends`. For example, I used `hspec` for tests, so I ran `cabal install hspec` and then added `hspec   == 2.*` to the dependencies. Here you can find an example of my [.cabal file](https://github.com/berto/terminal-countdown-timer/blob/master/terminal-countdown-timer.cabal) and the [tests](https://github.com/berto/terminal-countdown-timer/blob/master/test/Spec.hs).
+For importing third party packages, install them using `cabal` and then add them to the ` build-depends`. For example, I used `hspec` for tests, so I ran `cabal install hspec` and then added `hspec == 2.*` to the dependencies. Here you can find an example of my [.cabal file](https://github.com/bertoort/terminal-countdown-timer/blob/master/terminal-countdown-timer.cabal) and the [tests](https://github.com/bertoort/terminal-countdown-timer/blob/master/test/Spec.hs).
 
 To create your own packages, start by defining the module name, the functions to by exported surrounded by parenthesis, and the keyword `where`. This is the example from the `Lib` package:
 
@@ -109,27 +109,27 @@ I find them unwelcoming when learning the language. They simplify the code to an
 
 My favorite ended up being the `$` that is an abstraction of `()`'s in the way of grouping the order of execution. `sum (1 * 8)` is the same as `sum $ 1 * 8`
 
-#### The Importance of Pattern Matching 
+#### The Importance of Pattern Matching
 
 In the [Syntax in Functions](http://learnyouahaskell.com/syntax-in-functions) chapter, you can see Haskell's ability to do pattern matching. There are so many ways to do `if` statements.
 
 You can define a function to behave differently depending on the input with standard `if` statements, [guards](https://wiki.haskell.org/Pattern_guard), or more interestingly, the way you define the function. Here is an example from the book:
 
 ```
-sayMe :: (Integral a) => a -> String  
-sayMe 1 = "One!"  
-sayMe 2 = "Two!"  
-sayMe 3 = "Three!"  
-sayMe 4 = "Four!"  
-sayMe 5 = "Five!"  
-sayMe x = "Not between 1 and 5" 
+sayMe :: (Integral a) => a -> String
+sayMe 1 = "One!"
+sayMe 2 = "Two!"
+sayMe 3 = "Three!"
+sayMe 4 = "Four!"
+sayMe 5 = "Five!"
+sayMe x = "Not between 1 and 5"
 ```
 
-If the input is 1, the function will return "One!", if it's 2, "Two!, and so on. In the last case, it will handle any other input as a variable `x`. 
+If the input is 1, the function will return "One!", if it's 2, "Two!, and so on. In the last case, it will handle any other input as a variable `x`.
 
-#### Flexible Inputs and Outputs 
+#### Flexible Inputs and Outputs
 
-In the code example above, you may have noticed the type `a` in the function declaration. This is Haskell's [Generics](https://wiki.haskell.org/Generics). They are great for allowing flexible inputs and outputs in a function. That means that the function `sayMe` could take any type of input. 
+In the code example above, you may have noticed the type `a` in the function declaration. This is Haskell's [Generics](https://wiki.haskell.org/Generics). They are great for allowing flexible inputs and outputs in a function. That means that the function `sayMe` could take any type of input.
 
 Haskell also has a [Maybe](https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-Maybe.html) and [Either](https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-Either.html) type. This I found really interesting, where you define the possibility of the outcome. In the case of `Maybe`, you get `Just` the type you defined or `Nothing` back.
 
@@ -139,7 +139,7 @@ f 0 = Nothing
 f x = Just x
 ```
 
-With `Either`, you `Either` get the `Right` or the `Left` type. 
+With `Either`, you `Either` get the `Right` or the `Left` type.
 
 ```
 f1 :: Int -> Either String Int

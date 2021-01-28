@@ -14,8 +14,8 @@ title = "Freelance Web Development"
 In my career, I've done some freelance work:
 
 - [Wedding Site](http://leviandangie.bertoort.com/) - [Ember Code](https://bitbucket.org/bertoort/front-end-levi-and-angie) and [Rails Code](https://bitbucket.org/bertoort/back-end-levi-and-angie)
-- [Business Site](https://numinousbodywork.com/) - [Code](https://github.com/berto/numinousbodywork) using a static site generator (Hugo)
-- [Travel Blog](http://rjtravels.world/) - [Rails Code](https://github.com/berto/rj-travels)
+- [Business Site](https://numinousbodywork.com/) - [Code](https://github.com/bertoort/numinousbodywork) using a static site generator (Hugo)
+- [Travel Blog](http://rjtravels.world/) - [Rails Code](https://github.com/bertoort/rj-travels)
 
 All which have been done more as favors with little compensation. It was mostly to explore the idea of freelancing
 and what it entails for a web developer.
@@ -55,15 +55,15 @@ mind and add new features.
 
 Be Agile about it too. Don't tell them it'll be done by a certain time, give them a rough estimate and work on iterations.
 Tell them you'll work on a few features and check back weekly to show your progress. At each meeting, reevaluate the plan
-and tell them what you'll be working on for the week. 
+and tell them what you'll be working on for the week.
 
 ## Templates and Generators
 
 Now that you are clear with what you're building, it's time to start coding.
 
-Content Management Systems, such as Wordpress or Drupal, are ideal for freelancers. They have great templates so 
+Content Management Systems, such as Wordpress or Drupal, are ideal for freelancers. They have great templates so
 you don't have to build everything from scratch, they have great support for deploying and hosting, and most importantly,
-excellent GUI for your clients to manage their site after you build it. The down side is that you have to learn a lot on 
+excellent GUI for your clients to manage their site after you build it. The down side is that you have to learn a lot on
 how to use a CMS which takes a lot of work.
 
 If you don't want to learn how to use a CMS, you can do it my way and look into [static site generators](https://www.staticgen.com/)
@@ -84,7 +84,6 @@ account and have the client own it. Any hosting or set up fees I have the client
 I like to use AWS services for price and convenience: [EC2](https://aws.amazon.com/ec2/) for web hosting and [S3](https://aws.amazon.com/s3/) for static hosting or images.
 
 You want to set it up so any developer can pick up from where you left off. Be organized and write necessary documentation.
-It's good practice and helpful even for you when you go back to the project after a long period of time. 
+It's good practice and helpful even for you when you go back to the project after a long period of time.
 
 ![gopher](img/starcrafts_3.png)
-

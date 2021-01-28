@@ -9,6 +9,6 @@ date = "2020-08-24T10:01:06-06:00"
 
 ![kerbal.me](/img/projects/kerbal.png)
 
-[Code Source](https://github.com/berto/kerbal)
+[Code Source](https://github.com/bertoort/kerbal)
 
 [Back to Projects](/projects)

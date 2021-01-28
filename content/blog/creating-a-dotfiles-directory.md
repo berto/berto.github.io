@@ -4,7 +4,7 @@ title = "Creating a Dotfiles Directory"
 
 +++
 
-Not too complicated but highly useful. The purpose of doing this is to save your system configurations and host them somewhere. I have my [dotfiles](https://github.com/berto/dotfiles) on github to share with the public, store them in a safe place, and to easily transfer them to other environments like my ubuntu server.
+Not too complicated but highly useful. The purpose of doing this is to save your system configurations and host them somewhere. I have my [dotfiles](https://github.com/bertoort/dotfiles) on github to share with the public, store them in a safe place, and to easily transfer them to other environments like my ubuntu server.
 
 Start by creating a directory anywhere you want, inside your `projects` or `$HOME` directory. Then, copy all your dotfiles (.bashrc, .bash_profile, .vimrc, .gitconfig…) inside your new `dotfiles` directory. I leave my `.profile` for private configurations.
 

@@ -10,6 +10,6 @@ Fun little time-lapse project built using a Raspberry Pi and Amazon S3 services.
 
 [Heroku Url](https://s3-time-lapse.herokuapp.com/). Takes a second.
 
-[Code Source](https://github.com/berto/time-lapse)
+[Code Source](https://github.com/bertoort/time-lapse)
 
 [Back to Projects](/projects)

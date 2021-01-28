@@ -39,6 +39,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 5px;
 }
 
 .content-card > * {
@@ -67,6 +68,13 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.content-image.work {
+  align-items: flex-end;
+  width: 100%;
+}
+.content-image.work img {
+  width: 50%;
 }
 
 /* BACKGROUND */
@@ -942,9 +950,6 @@ section.main .content .markdown blockquote p:last-child {
 }
 .profile-face {
   position: absolute;
-}
-.profile-face-container:hover .front {
-  display:none;
 }
 
 body {

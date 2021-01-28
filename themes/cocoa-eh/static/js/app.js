@@ -7,8 +7,8 @@ const burst = new mojs.Burst({
   opacity: { 1: 0 },
   children: {
     fill: { '#BE6CB6': 'cyan' },
-    duration: 2000
-  }
+    duration: 2000,
+  },
 })
 
 const displayBackground = location.pathname === '/about/'
@@ -21,15 +21,12 @@ if (displayBackground) {
 const img = document.querySelector('img')
 
 if (img) {
-  img.addEventListener('click', e => {
+  img.addEventListener('click', (e) => {
     let isA = e.target.localName === 'a'
     let hasParent = e.target.parentNode.localName === 'a'
     let hasGrandparent = e.target.parentNode.parentNode.localName === 'a'
     if (!isA && !hasParent && !hasGrandparent) {
-      burst
-        .tune({ x: e.pageX, y: e.pageY })
-        .generate()
-        .replay()
+      burst.tune({ x: e.pageX, y: e.pageY }).generate().replay()
     }
   })
 }
@@ -38,7 +35,7 @@ console.set({ size: '2em' })
 console.party('Welcome to my console!!')
 console.set({ size: '1em', style: 'pink' })
 console.print('Nothing but beautiful text')
-console.log('https://github.com/berto/fun-logger')
+console.log('https://github.com/bertoort/fun-logger')
 
 // Dark Theme
 
@@ -73,7 +70,7 @@ function toggleCSS() {
       background: 'white',
       color: 'black',
       opacity: 0.05,
-      filter: 'none'
+      filter: 'none',
     }
     setTheme(lightCSS)
   } else {
@@ -81,7 +78,7 @@ function toggleCSS() {
       background: 'black',
       color: 'lightgray',
       opacity: 0.1,
-      filter: 'invert(100%)'
+      filter: 'invert(100%)',
     }
     setTheme(darkCSS)
   }
@@ -143,7 +140,7 @@ function animate() {
 
 function blink(milli) {
   eyes.style.display = 'none'
-  setTimeout(function() {
+  setTimeout(function () {
     eyes.style.display = ''
   }, milli)
 }
@@ -151,7 +148,7 @@ function blink(milli) {
 function shake() {
   wings.style.transformOrigin = 'bottom right'
   wings.style.animation = 'shake 1s'
-  setTimeout(function() {
+  setTimeout(function () {
     wings.style.transformOrigin = ''
     wings.style.animation = ''
   }, 1000)
@@ -159,7 +156,7 @@ function shake() {
 
 function pant() {
   tongue.style.animation = 'pant .7s'
-  setTimeout(function() {
+  setTimeout(function () {
     tongue.style.animation = ''
   }, 1000)
 }

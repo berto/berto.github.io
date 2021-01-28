@@ -9,6 +9,6 @@ date = "2016-11-12T14:55:03-07:00"
 
 I call it udraw. Basically it takes a unicode file and displays it in the terminal.
 
-[Code Source](https://github.com/berto/udraw)
+[Code Source](https://github.com/bertoort/udraw)
 
 [Back to Projects](/projects)

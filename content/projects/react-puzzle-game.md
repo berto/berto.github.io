@@ -9,6 +9,6 @@ date = "2016-08-02T15:14:38-07:00"
 
 Built with React/Redux. The point of the game is to leave your opponent with the last donut. [Give it a shot!](https://dont-take-the-last-donut.herokuapp.com/)
 
-[Code Source](https://github.com/berto/donuts)
+[Code Source](https://github.com/bertoort/donuts)
 
 [Back to Projects](/projects)

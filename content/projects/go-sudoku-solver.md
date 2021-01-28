@@ -11,6 +11,6 @@ Sudoku web app: solves, generates, grades, and validates sudoku puzzles.
 
 [Heroku Url](https://sugoku.herokuapp.com/). Takes a second.
 
-[Code Source](https://github.com/berto/sugoku)
+[Code Source](https://github.com/bertoort/sugoku)
 
 [Back to Projects](/projects)
