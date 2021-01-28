@@ -9,29 +9,29 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Example blog">
 
-<base href="https://berto.github.io">
+<base href="https://bertoort.github.io">
 <title>
 
 
      Berto - Building a Video Recording App with AWS S3 and a Raspberry Pi 
 
 </title>
-<link rel="canonical" href="https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/">
+<link rel="canonical" href="https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/">
 
 
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
 
 
-<link rel="stylesheet" href="https://berto.github.io/css/reset.css">
-<link rel="stylesheet" href="https://berto.github.io/css/main.css">
+<link rel="stylesheet" href="https://bertoort.github.io/css/reset.css">
+<link rel="stylesheet" href="https://bertoort.github.io/css/main.css">
 
 
 
 
 <link rel="shortcut icon"
 
-    href="https://berto.github.io/img/zergling.png"
+    href="https://bertoort.github.io/img/zergling.png"
 
 >
 
@@ -51,27 +51,26 @@
     <i class="icon theme ion-ios-moon"></i>
       <div class="container">
           
-          <a href="https://berto.github.io">
+          <a href="https://bertoort.github.io">
             <div class="profile-face-container">
-                <img class="profile-face circle-round" src="https://berto.github.io/img/serio.jpg" alt="me">
-                <img class="profile-face circle-round front" src="https://berto.github.io/img/sonrisa.jpg" alt="me">
+                <img class="profile-face circle-round front" src="https://bertoort.github.io/img/sonrisa.jpg" alt="me">
             </div>
             
           </a>
           <div class="content">
-              <a href="https://berto.github.io">
+              <a href="https://bertoort.github.io">
                 <div class="name">
                   <h1><span class="extend">Ro</span>Berto<span class="extend">&nbsp;Ortega</span></h1>
                 </div>
               </a>
               <nav>
                   <ul>
-                      <a href="https://berto.github.io/"><li>HOME</li></a>
+                      <a href="https://bertoort.github.io/"><li>HOME</li></a>
                       
                           
                       
                           
-                              <a href="https://berto.github.io/about/"><li>About</li></a>
+                              <a href="https://bertoort.github.io/about/"><li>About</li></a>
                           
                       
                       
@@ -86,7 +85,7 @@
                           
                       
                       
-                        <a href="https://berto.github.io/blog/"><li>Blog</li></a>
+                        <a href="https://bertoort.github.io/blog/"><li>Blog</li></a>
                       
                       
                   </ul>
@@ -100,7 +99,7 @@
           <div class="content">
   
           
-              <a href="https://github.com/berto" target="_blank">
+              <a href="https://github.com/bertoort" target="_blank">
                   <i class="icon ion-social-github"></i>
               </a>
           
@@ -120,7 +119,7 @@
           
   
           
-              <a href="https://berto.github.io/index.xml">
+              <a href="https://bertoort.github.io/index.xml">
                   <i class="icon ion-social-rss larger"></i>
               </a>
           
@@ -148,15 +147,15 @@
             </div>
             <div class="markdown">
                 <ul>
-<li><a href="https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#app-design">App Design</a></li>
-<li><a href="https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#baking-the-pie">Baking the Pie</a></li>
-<li><a href="https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#picture-scripts">Picture Scripts</a></li>
-<li><a href="https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#aws-s3-bucket">AWS S3 Bucket</a></li>
-<li><a href="https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#streaming-app">Streaming App</a></li>
+<li><a href="https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#app-design">App Design</a></li>
+<li><a href="https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#baking-the-pie">Baking the Pie</a></li>
+<li><a href="https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#picture-scripts">Picture Scripts</a></li>
+<li><a href="https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#aws-s3-bucket">AWS S3 Bucket</a></li>
+<li><a href="https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/#streaming-app">Streaming App</a></li>
 </ul>
 <h2 id="app-design">APP DESIGN</h2>
 <p>As a personal project, I decided to attach a camera to a <a href="https://www.raspberrypi.org/">Raspberry Pi</a> , upload the pictures to <a href="https://aws.amazon.com/s3/">Amazon s3</a>, and then build a <a href="https://s3-time-lapse.herokuapp.com/devteam">website</a> to loop through the pictures.</p>
-<p><img src="https://berto.github.io/img/time-lapse.gif" alt="time-lapse"></p>
+<p><img src="https://bertoort.github.io/img/time-lapse.gif" alt="time-lapse"></p>
 <p>After reading this blog, you should have a clear picture on how to build a basic <a href="https://en.wikipedia.org/wiki/Internet_of_things">IoT</a> project. I will do my best to provide the resources and step-by-step instructions on how to do it yourself, from setting up a Pi to accessing images in S3 buckets.</p>
 <p>The total budget was about $100. Mostly on the <a href="https://www.amazon.com/gp/product/B00LQ854AG/ref=oh_aui_detailpage_o03_s00?ie=UTF8&amp;psc=1">web camera</a>, the <a href="https://www.amazon.com/Raspberry-Pi-RASP-PI-3-Model-Motherboard/dp/B01CD5VC92/ref=lp_5811495011_1_1?srs=5811495011&amp;ie=UTF8&amp;qid=1475255454&amp;sr=8-1">Pi</a>, <a href="https://www.amazon.com/gp/product/B01CDVSBPO/ref=oh_aui_detailpage_o06_s00?ie=UTF8&amp;psc=1">case</a>, and <a href="https://www.amazon.com/gp/product/B010Q57SEE/ref=oh_aui_detailpage_o06_s01?ie=UTF8&amp;psc=1">SD memory card</a>.</p>
 <h2 id="baking-the-pie">BAKING THE PIE</h2>
@@ -170,7 +169,7 @@
 </code></pre><p>Then you are ready to install <a href="http://www.tightvnc.com/">Tight VNC</a>. You will use this for remote access. <a href="http://elinux.org/RPi_VNC_Server">Here</a> you can find detailed instructions on how to set it up. Basically, it will run a TightVNC Server whenever you boot the pi.</p>
 <h4 id="to-connect">To Connect:</h4>
 <p>You can use an ethernet cable but I prefer Wifi. After you hook up the raspberry pi with Wifi and TightVNC is running, find the <a href="https://www.raspberrypi.org/documentation/remote-access/ip-address.md">IP Adress</a>. Enter that IP as the VNC Server</p>
-<p><img src="https://berto.github.io/img/tightvnc.png" alt="tightvnc"></p>
+<p><img src="https://bertoort.github.io/img/tightvnc.png" alt="tightvnc"></p>
 <h4 id="extra-tip">Extra Tip:</h4>
 <p>You can <a href="https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md">set up Wifi through the command line</a>. It’s a convinient way to add known networks in advance. That way, in a new location, the pi should connect to the Wifi automatically and broadcast the server.</p>
 <p>With <a href="https://nmap.org/">NMap</a> you can find the the pi IP Address and connect to it. For a mac,</p>
@@ -198,9 +197,9 @@
 </code></pre><pre><code>rm FILE
 </code></pre><p>If this works correctly, you should be able to see the images in your <a href="https://console.aws.amazon.com/s3/home">AWS Console</a> and permanetly remove from your pi memory storage.</p>
 <h2 id="streaming-app">STREAMING APP</h2>
-<p>The app was my touch to easily display a timelapse of the images taken. You can find the <a href="https://github.com/berto/time-lapse">code here</a>. It was written in Go using the <a href="https://github.com/aws/aws-sdk-go">AWS Go SDK</a>. The app gets the images from Amazon, sends them to the client, and JavaScript displays them every second.</p>
+<p>The app was my touch to easily display a timelapse of the images taken. You can find the <a href="https://github.com/bertoort/time-lapse">code here</a>. It was written in Go using the <a href="https://github.com/aws/aws-sdk-go">AWS Go SDK</a>. The app gets the images from Amazon, sends them to the client, and JavaScript displays them every second.</p>
 <p>This is where a lot of liberty can come in for the execution. For example, you can have an app with a button that will run the script and display the current image. That’s basically an instant home monitoring app. Have fun :)</p>
-<p><img src="https://berto.github.io/img/gopher4.png" alt="gopher"></p>
+<p><img src="https://bertoort.github.io/img/gopher4.png" alt="gopher"></p>
 
                 <br>
                 <p><a href="blog">Back to posts</a></p>
@@ -236,8 +235,8 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
   
 
-  <script src="https://berto.github.io/js/mo.js" type="text/javascript"></script>
-  <script src="https://berto.github.io/js/app.js" type="text/javascript"></script>
+  <script src="https://bertoort.github.io/js/mo.js" type="text/javascript"></script>
+  <script src="https://bertoort.github.io/js/app.js" type="text/javascript"></script>
   <script type="text/javascript">
     hljs.initHighlightingOnLoad();
   </script>

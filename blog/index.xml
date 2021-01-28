@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Berto</title>
-    <link>https://berto.github.io/blog/</link>
+    <link>https://bertoort.github.io/blog/</link>
     <description>Recent content in Blog on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 19 Aug 2017 20:08:23 -0700</lastBuildDate>
     
-	<atom:link href="https://berto.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bertoort.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Freelance Web Development</title>
-      <link>https://berto.github.io/blog/freelance-web-development/</link>
+      <link>https://bertoort.github.io/blog/freelance-web-development/</link>
       <pubDate>Sat, 19 Aug 2017 20:08:23 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/freelance-web-development/</guid>
+      <guid>https://bertoort.github.io/blog/freelance-web-development/</guid>
       <description>My Work How to Freelance Setting Expectations Templates and Generators Hand Off  My Work In my career, I&amp;rsquo;ve done some freelance work:
  Wedding Site - Ember Code and Rails Code Business Site - Code using a static site generator (Hugo) Travel Blog - Rails Code  All which have been done more as favors with little compensation. It was mostly to explore the idea of freelancing and what it entails for a web developer.</description>
     </item>
     
     <item>
       <title>Vuex vs React Redux</title>
-      <link>https://berto.github.io/blog/vuex-vs-react-redux/</link>
+      <link>https://bertoort.github.io/blog/vuex-vs-react-redux/</link>
       <pubDate>Sat, 27 May 2017 22:25:43 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/vuex-vs-react-redux/</guid>
+      <guid>https://bertoort.github.io/blog/vuex-vs-react-redux/</guid>
       <description>Vuex introduced me to another way of implementing Flux.
 Flux is an &amp;ldquo;APPLICATION ARCHITECTURE FOR BUILDING USER INTERFACES&amp;rdquo;. If you ever build a single page app with multiple routes and nested components, managing state is a nightmare. Flux makes it easier to manage and it makes sense. I&amp;rsquo;ve used it in multiple react apps with Redux, Peer Review being my last one, and it&amp;rsquo;s helpful. It takes a lot of work to set up and multiple files, but it makes sense in large applications.</description>
     </item>
     
     <item>
       <title>Image To Font</title>
-      <link>https://berto.github.io/blog/image-to-font/</link>
+      <link>https://bertoort.github.io/blog/image-to-font/</link>
       <pubDate>Sat, 15 Apr 2017 22:25:43 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/image-to-font/</guid>
+      <guid>https://bertoort.github.io/blog/image-to-font/</guid>
       <description>@font-face { font-family: &#39;Logo&#39;; font-style: normal; src: url(&#39;https://cdn.jsdelivr.net/gh/berto/numinousbodywork@master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf&#39;); } .icon-logo { line-height: 1em; font-size: 500%; font-family: &#34;logo&#34;; transition: color 1s; } .icon-logo:hover { color: rebeccapurple; } .small { font-size: 100%; }   Intro From Pixels to Vectors From SVG To Font Include With CSS  Intro Recently I ran into the challenge of turning an image that a client provided into an icon. In order to use it as an icon, I had to included as a font in the CSS.</description>
     </item>
     
     <item>
       <title>How To Store User Images</title>
-      <link>https://berto.github.io/blog/how-to-store-user-images/</link>
+      <link>https://bertoort.github.io/blog/how-to-store-user-images/</link>
       <pubDate>Thu, 23 Mar 2017 22:25:43 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/how-to-store-user-images/</guid>
+      <guid>https://bertoort.github.io/blog/how-to-store-user-images/</guid>
       <description>Introduction Ways of Storing Images Demo  Introduction You want your users to be able to upload images, profile pictures, receipts, and so on, but you are not sure where to save it or how to do it.
 This is a short blog addressing this issue. I will talk about the different ways, but more importantly, link to a demo repo that walks through the process of uploading images using Amazon Services.</description>
     </item>
     
     <item>
       <title>Introduction to Haskell</title>
-      <link>https://berto.github.io/blog/introduction-to-haskell/</link>
+      <link>https://bertoort.github.io/blog/introduction-to-haskell/</link>
       <pubDate>Thu, 02 Feb 2017 23:55:51 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/introduction-to-haskell/</guid>
+      <guid>https://bertoort.github.io/blog/introduction-to-haskell/</guid>
       <description>Getting Started Development Syntax Conclusion  I came to discover Haskell is a wonderful programming language. The fact that it is statically typed and purely functional grabbed my attention (it is also described as a declarative language, regardless of how impossible it is to read).
 This blog is an open record of how I came to create a simple CLI timer with Haskell and what I learned from it.</description>
     </item>
     
     <item>
       <title>Making This Site with Hugo</title>
-      <link>https://berto.github.io/blog/making-this-site-with-hugo/</link>
+      <link>https://bertoort.github.io/blog/making-this-site-with-hugo/</link>
       <pubDate>Sat, 03 Dec 2016 23:46:44 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/making-this-site-with-hugo/</guid>
+      <guid>https://bertoort.github.io/blog/making-this-site-with-hugo/</guid>
       <description>Introduction Installation Picking A Theme Generating An App Customizing The App Adding Content Deployment Next Steps  INTRODUCTION Static site generators are fun. After building many sites, being able to scaffold one in minutes can be extremely convenient. If the goal is to write a blog, there is no need to wireframe, create the html layout, style, etc. Simply generate the app and start typing.
 Hugo is my favorite static site generator.</description>
     </item>
     
     <item>
       <title>Building a Video Recording App with AWS S3 and a Raspberry Pi</title>
-      <link>https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</link>
+      <link>https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</link>
       <pubDate>Sat, 15 Oct 2016 23:08:47 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</guid>
+      <guid>https://bertoort.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</guid>
       <description>App Design Baking the Pie Picture Scripts AWS S3 Bucket Streaming App  APP DESIGN As a personal project, I decided to attach a camera to a Raspberry Pi , upload the pictures to Amazon s3, and then build a website to loop through the pictures.
 After reading this blog, you should have a clear picture on how to build a basic IoT project. I will do my best to provide the resources and step-by-step instructions on how to do it yourself, from setting up a Pi to accessing images in S3 buckets.</description>
     </item>
     
     <item>
       <title>Using Docker for Web Development</title>
-      <link>https://berto.github.io/blog/using-docker-for-web-development/</link>
+      <link>https://bertoort.github.io/blog/using-docker-for-web-development/</link>
       <pubDate>Sun, 18 Sep 2016 22:48:16 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/using-docker-for-web-development/</guid>
+      <guid>https://bertoort.github.io/blog/using-docker-for-web-development/</guid>
       <description>All Aboard Building an App Dockerfil and Docker Compose Next Steps  ALL ABOARD THE HYPE TRAIN CONTAINERSHIP Docker is popular for its lightweight ease of deployment. Make a container with only the images you need and boom! the perfect running environment. There are many guides that will go into detail on how Docker works and how to use it. However, I haven’t seen many guides that break down the use of it for development… and Docker is a great tool for development.</description>
     </item>
     
     <item>
       <title>Creating a Dotfiles Directory</title>
-      <link>https://berto.github.io/blog/creating-a-dotfiles-directory/</link>
+      <link>https://bertoort.github.io/blog/creating-a-dotfiles-directory/</link>
       <pubDate>Sat, 27 Aug 2016 22:40:54 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/creating-a-dotfiles-directory/</guid>
+      <guid>https://bertoort.github.io/blog/creating-a-dotfiles-directory/</guid>
       <description>Not too complicated but highly useful. The purpose of doing this is to save your system configurations and host them somewhere. I have my dotfiles on github to share with the public, store them in a safe place, and to easily transfer them to other environments like my ubuntu server.
 Start by creating a directory anywhere you want, inside your projects or $HOME directory. Then, copy all your dotfiles (.bashrc, .</description>
     </item>
     
     <item>
       <title>A Friendly Guide to Setting Up VIM</title>
-      <link>https://berto.github.io/blog/a-friendly-guide-to-setting-up-vim/</link>
+      <link>https://bertoort.github.io/blog/a-friendly-guide-to-setting-up-vim/</link>
       <pubDate>Tue, 16 Aug 2016 22:25:43 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/a-friendly-guide-to-setting-up-vim/</guid>
+      <guid>https://bertoort.github.io/blog/a-friendly-guide-to-setting-up-vim/</guid>
       <description>Why Vim? Previous Requirements Installation vimrc Personal Extras Next Steps  WHY VIM? This blog will walk you step by step on how to setup vim and make it your new favorite text editor. But why? you may ask. Vim seems like a long walk for a short dive. It’s difficult to understand, set up, and learn to navigate.
 I like shortcuts and simply think it&amp;rsquo;s fun.
 I’m not going to try to convince you to use it, however, or even teach you how to use it.</description>
@@ -112,20 +112,20 @@ I’m not going to try to convince you to use it, however, or even teach you how
     
     <item>
       <title>Web Development In Go: Beginners Step by Step Intro</title>
-      <link>https://berto.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</link>
+      <link>https://bertoort.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</link>
       <pubDate>Wed, 20 Jul 2016 14:01:29 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</guid>
+      <guid>https://bertoort.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</guid>
       <description>What to expect from this post Getting Started Hello Go Web Server Deployment Next Steps  WHAT TO EXPECT FROM THIS POST This is a beginner’s introduction to using Go for Web Development. By the end of this post, we will have built and deployed a simple web site.
 I’m striving for a low barrier to entry approach. This means minimizing the complexity by sparing some details and using libraries/frameworks that do most of the magic for us.</description>
     </item>
     
     <item>
       <title>AWS EC2 VPS Setup</title>
-      <link>https://berto.github.io/blog/aws-ec2-vps-setup/</link>
+      <link>https://bertoort.github.io/blog/aws-ec2-vps-setup/</link>
       <pubDate>Sat, 18 Jun 2016 20:08:23 -0700</pubDate>
       
-      <guid>https://berto.github.io/blog/aws-ec2-vps-setup/</guid>
+      <guid>https://bertoort.github.io/blog/aws-ec2-vps-setup/</guid>
       <description>Set Up Server Buy Domain Power Up Ubuntu Server Next Steps  Part of being a developer is having your own virtual private server (VPS). Personally, I’m a big fan of Digital Ocean. Amazon however offers a year of free service, so to keep our beer budget intact, in this tutorial, I’ll walk you step by step on setting up an EC2 Instance on AWS.
 SET UP SERVER Create AWS Account Go into AWS and set up an account.</description>
     </item>

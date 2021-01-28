@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Berto</title>
-    <link>https://berto.github.io/projects/</link>
+    <link>https://bertoort.github.io/projects/</link>
     <description>Recent content in Projects on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 24 Aug 2020 10:01:06 -0600</lastBuildDate>
     
-	<atom:link href="https://berto.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bertoort.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kerbal.me</title>
-      <link>https://berto.github.io/projects/kerbal-me/</link>
+      <link>https://bertoort.github.io/projects/kerbal-me/</link>
       <pubDate>Mon, 24 Aug 2020 10:01:06 -0600</pubDate>
       
-      <guid>https://berto.github.io/projects/kerbal-me/</guid>
+      <guid>https://bertoort.github.io/projects/kerbal-me/</guid>
       <description>Kerbal.me is an avatar generator website. Kerbals are characters from a space simulator game, Kerbal Space Program. Users can customize and download a Kerbal like themselves!
 Code Source
 Back to Projects</description>
@@ -24,10 +24,10 @@ Back to Projects</description>
     
     <item>
       <title>Wasm Snake Game</title>
-      <link>https://berto.github.io/projects/wasm-snake-game/</link>
+      <link>https://bertoort.github.io/projects/wasm-snake-game/</link>
       <pubDate>Sat, 04 Jan 2020 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/wasm-snake-game/</guid>
+      <guid>https://bertoort.github.io/projects/wasm-snake-game/</guid>
       <description>Snek is a fun project built with rust&amp;rsquo;s wasm bindgen.
 Code Source
 Back to Projects</description>
@@ -35,10 +35,10 @@ Back to Projects</description>
     
     <item>
       <title>Fog of War</title>
-      <link>https://berto.github.io/projects/fog-of-war/</link>
+      <link>https://bertoort.github.io/projects/fog-of-war/</link>
       <pubDate>Mon, 11 Feb 2019 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/fog-of-war/</guid>
+      <guid>https://bertoort.github.io/projects/fog-of-war/</guid>
       <description>Game project to explore Rust using game framework ggez.
 Code Source
 Back to Projects</description>
@@ -46,10 +46,10 @@ Back to Projects</description>
     
     <item>
       <title>Vango Twitter Bot</title>
-      <link>https://berto.github.io/projects/vango-twitter-bot/</link>
+      <link>https://bertoort.github.io/projects/vango-twitter-bot/</link>
       <pubDate>Thu, 27 Jul 2017 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/vango-twitter-bot/</guid>
+      <guid>https://bertoort.github.io/projects/vango-twitter-bot/</guid>
       <description>Named after the artist Vincent Van Gogh, Vango&amp;rsquo;s original purpose is to generate colorful hexagon tiles and post them on Twitter. The program can also generate hexagon-tiled images.
 Code Source
 Back to Projects</description>
@@ -57,10 +57,10 @@ Back to Projects</description>
     
     <item>
       <title>Fun Logger</title>
-      <link>https://berto.github.io/projects/fun-logger/</link>
+      <link>https://bertoort.github.io/projects/fun-logger/</link>
       <pubDate>Thu, 11 May 2017 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/fun-logger/</guid>
+      <guid>https://bertoort.github.io/projects/fun-logger/</guid>
       <description>Fun project styling JavaScript&amp;rsquo;s print functionality. Open up the dev tools to see an example or check out the readme for more information and usage.
 Code Source
 Back to Projects</description>
@@ -68,10 +68,10 @@ Back to Projects</description>
     
     <item>
       <title>Gorbit</title>
-      <link>https://berto.github.io/projects/gorbit/</link>
+      <link>https://bertoort.github.io/projects/gorbit/</link>
       <pubDate>Fri, 05 May 2017 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/gorbit/</guid>
+      <guid>https://bertoort.github.io/projects/gorbit/</guid>
       <description>Short for Go and Orbit, it&amp;rsquo;s a game built in unity in honor of GopherCon 2017.
 Code Source
 Back to Projects</description>
@@ -79,10 +79,10 @@ Back to Projects</description>
     
     <item>
       <title>Peer Review App</title>
-      <link>https://berto.github.io/projects/peer-review/</link>
+      <link>https://bertoort.github.io/projects/peer-review/</link>
       <pubDate>Mon, 24 Apr 2017 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/peer-review/</guid>
+      <guid>https://bertoort.github.io/projects/peer-review/</guid>
       <description>Ideal for group feedback. Peer Review is hooked up to Galvanize&amp;rsquo;s Login to be managed by instructors. You can import student cohorts and create project feedback forms. After the survey&amp;rsquo;s are submitted, the app display the results grouped by students.
 The app is build with React/Redux and TypeScript.
 Code Source
@@ -91,19 +91,19 @@ Back to Projects</description>
     
     <item>
       <title>Projects</title>
-      <link>https://berto.github.io/projects/projects/</link>
+      <link>https://bertoort.github.io/projects/projects/</link>
       <pubDate>Tue, 31 Jan 2017 15:53:28 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/projects/</guid>
+      <guid>https://bertoort.github.io/projects/projects/</guid>
       <description>Developers should never stop learning. Below is a curated list of my personal projects outside of work. For more, check out my Github profile.</description>
     </item>
     
     <item>
       <title>Haskell CLI Timer</title>
-      <link>https://berto.github.io/projects/haskell-cli-timer/</link>
+      <link>https://bertoort.github.io/projects/haskell-cli-timer/</link>
       <pubDate>Mon, 30 Jan 2017 20:07:51 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/haskell-cli-timer/</guid>
+      <guid>https://bertoort.github.io/projects/haskell-cli-timer/</guid>
       <description>Simple CLI timer. Test-driven and written in Haskell.
 Code Source
 Back to Projects</description>
@@ -111,10 +111,10 @@ Back to Projects</description>
     
     <item>
       <title>Go Terminal Flashcard App</title>
-      <link>https://berto.github.io/projects/go-cli-flashcards/</link>
+      <link>https://bertoort.github.io/projects/go-cli-flashcards/</link>
       <pubDate>Tue, 29 Nov 2016 14:43:35 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/go-cli-flashcards/</guid>
+      <guid>https://bertoort.github.io/projects/go-cli-flashcards/</guid>
       <description>Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.
 Code Source
 Back to Projects</description>
@@ -122,10 +122,10 @@ Back to Projects</description>
     
     <item>
       <title>CLI Image to Unicode Display Tool</title>
-      <link>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</link>
+      <link>https://bertoort.github.io/projects/cli-image-to-unicode-display-tool/</link>
       <pubDate>Sat, 12 Nov 2016 14:55:03 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</guid>
+      <guid>https://bertoort.github.io/projects/cli-image-to-unicode-display-tool/</guid>
       <description>I call it udraw. Basically it takes a unicode file and displays it in the terminal.
 Code Source
 Back to Projects</description>
@@ -133,10 +133,10 @@ Back to Projects</description>
     
     <item>
       <title>Raspberry Pi Time Lapse Camera</title>
-      <link>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</link>
+      <link>https://bertoort.github.io/projects/raspberry-pi-time-lapse-camera/</link>
       <pubDate>Wed, 28 Sep 2016 15:07:05 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</guid>
+      <guid>https://bertoort.github.io/projects/raspberry-pi-time-lapse-camera/</guid>
       <description>Fun little time-lapse project built using a Raspberry Pi and Amazon S3 services.
 Heroku Url. Takes a second.
 Code Source
@@ -145,10 +145,10 @@ Back to Projects</description>
     
     <item>
       <title>React Puzzle Game</title>
-      <link>https://berto.github.io/projects/react-puzzle-game/</link>
+      <link>https://bertoort.github.io/projects/react-puzzle-game/</link>
       <pubDate>Tue, 02 Aug 2016 15:14:38 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/react-puzzle-game/</guid>
+      <guid>https://bertoort.github.io/projects/react-puzzle-game/</guid>
       <description>Built with React/Redux. The point of the game is to leave your opponent with the last donut. Give it a shot!
 Code Source
 Back to Projects</description>
@@ -156,10 +156,10 @@ Back to Projects</description>
     
     <item>
       <title>Game Theory with Waffles</title>
-      <link>https://berto.github.io/projects/game-theory-with-waffles/</link>
+      <link>https://bertoort.github.io/projects/game-theory-with-waffles/</link>
       <pubDate>Fri, 08 Apr 2016 15:21:27 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/game-theory-with-waffles/</guid>
+      <guid>https://bertoort.github.io/projects/game-theory-with-waffles/</guid>
       <description>I find Game Theory fascinating. I also like waffles. I decided to create a web game to challenge two people into a zero-sum game situation.
 Built with websockets and Go.
 Heroku Url. Takes a second.
@@ -169,10 +169,10 @@ Back to Projects</description>
     
     <item>
       <title>Java Gradle Generator</title>
-      <link>https://berto.github.io/projects/java-gradle-generator/</link>
+      <link>https://bertoort.github.io/projects/java-gradle-generator/</link>
       <pubDate>Sun, 21 Feb 2016 15:56:13 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/java-gradle-generator/</guid>
+      <guid>https://bertoort.github.io/projects/java-gradle-generator/</guid>
       <description>Basic generator for a Gradle Java application using Yeoman.
 Code Source
 Back to Projects</description>
@@ -180,10 +180,10 @@ Back to Projects</description>
     
     <item>
       <title>Go Sudoku Solver</title>
-      <link>https://berto.github.io/projects/go-sudoku-solver/</link>
+      <link>https://bertoort.github.io/projects/go-sudoku-solver/</link>
       <pubDate>Sun, 22 Nov 2015 15:27:29 -0700</pubDate>
       
-      <guid>https://berto.github.io/projects/go-sudoku-solver/</guid>
+      <guid>https://bertoort.github.io/projects/go-sudoku-solver/</guid>
       <description>Sudoku web app: solves, generates, grades, and validates sudoku puzzles.
 Heroku Url. Takes a second.
 Code Source
